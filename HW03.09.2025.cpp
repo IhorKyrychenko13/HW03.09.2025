@@ -2,10 +2,13 @@
 #include "Schedule.h"
 #include <iostream>
 #include <iomanip>
+#include <Windows.h>
 using namespace std;
 
 int main()
 {
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
     cout << "===== Завдання 1: Перевірка класу Time_ =====\n\n";
     Time_ now;                 
     Time_ t1(12, 59, 58, true);  
